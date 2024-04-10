@@ -1,0 +1,44 @@
+.color-deep_orange { background-color : #FF7043 }
+.color-amber { background-color : #FFB74D }
+.color-yellow { background-color : #FFD54F }
+.color-tea_green { background-color : #81C784 }
+.color-green { background-color : #4CAF50 }
+
+body {
+    background-color: #81D4FA
+}
+  
+table {
+    margin: 0 auto;
+    border: 2px solid #ccc; /* Add styling for your tables */
+    width: 200px; 
+    height: 200px;
+    padding: 10px;
+}
+
+#colorTable {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-collapse: collapse;
+}
+
+h1, caption, .color-label {
+    color: white;
+    text-align: center;
+}
+
+caption {
+    font-size: 20px;
+}
+
+.color-button {
+    width: 20px; /* Adjust the width to your desired size */
+    height: 20px; /* Adjust the height to your desired size */
+}
+
+#reset {
+    position: absolute;
+    top: 204px;
+    left: 70px;
+}
